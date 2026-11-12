@@ -123,7 +123,7 @@ main p {
   border-radius: 8px;
 }
 /* Style rules for contact content */
-#contact {
+#contact, #rental, #form {
     text-align: center;
 }
 
@@ -153,6 +153,30 @@ main p {
     border: 5px solid #373684;
 	width: 95%;
 	height: 50%;
+}
+/* Style rules for table elements */
+table {
+	border: 1px solid #373684;
+	border-collapse: collapse;
+	margin: 0 auto;
+	width: 100%;
+}
+caption {
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 1%;
+}
+th, td {
+	border: 1px solid #373684;
+	padding: 2%;
+}
+th {
+	background-color: #373684;
+	color: #fff;
+	font-size: 1.15em;
+}
+tr:nth-child(odd) {
+	background-color: #b7b7el;
 }
 /* Style rules for footer content */
 footer {

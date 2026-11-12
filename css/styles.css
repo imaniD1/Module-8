@@ -279,6 +279,7 @@ footer a {
 	.grid {
     grid-template-columns: auto auto auto auto;
 }
+/* Desktop Viewport: 
 }
 
 /* Media Query for Print */

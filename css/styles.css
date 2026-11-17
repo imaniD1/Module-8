@@ -263,6 +263,11 @@ footer a {
 		width: 500px;
 		height: 450px;
 	}
+	/* Tablet Viewport: Style rule for form element */
+	form {
+		width: 70%;
+		margin: 0px auto;
+	}
 
 	.grid {
 		display: grid;
